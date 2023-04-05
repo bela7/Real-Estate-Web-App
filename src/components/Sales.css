@@ -1,0 +1,47 @@
+/* Center the page content */
+.container {
+  max-width: 800px;
+  margin-top: 10px;
+}
+
+/* Style the headings */
+.h-sales {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px; 
+  font-weight: bold;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Style the cards */
+.card-sales {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 500px;
+  max-height: 800px;
+}
+
+.card-sales-img-top {
+  object-fit: cover;
+  height: 500px;
+}
+
+.card-sales-body {
+  padding: 20px;
+  max-width: 500px;
+}
+
+.card-sales-text {
+  font-size: 18px;
+  max-width: 500px;
+  line-height: 1.5;
+}

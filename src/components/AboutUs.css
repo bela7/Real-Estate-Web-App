@@ -1,0 +1,71 @@
+.aboutus-container {
+    max-width: 2000px;
+    height: 900px;
+    max-height: 2000px;
+    margin: 0 auto;
+    padding-top: 80px; 
+    background-color: black;
+  }
+  
+  .title-aboutus {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .members-container {
+    max-width: 1000px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .member-card {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .member-img {
+    width: 100%;
+    height: 300px;
+    max-height: 800px; 
+    border-radius: 5px; 
+  }
+  
+  .member-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .member-details {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white; 
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .description-container {
+    height: 100px; 
+    overflow: hidden;
+    transition: height 0.3s ease;
+    color: white;
+  }
+  
+  .expanded-description {
+    margin-top: 10px;
+    color: white;
+  }
+  
